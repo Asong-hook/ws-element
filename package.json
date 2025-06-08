@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "pnpm --filter @ws-element/play dev",
+    "docs:dev": "pnpm --filter @ws-element/docs dev",
+    "docs:build": "pnpm --filter @ws-element/docs build"
   },
   "keywords": [],
   "author": "",
